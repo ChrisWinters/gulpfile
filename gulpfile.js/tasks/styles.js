@@ -46,7 +46,7 @@ gulp.task('styles', gulp.series('style.css', 'style.min.css'));
  * Create style.css
  */
 gulp.task('style.css', function () {
-    return gulp.src(config.assets_dest + '/css/_style.scss')
+    return gulp.src(config.assets_dest + '/css/style.scss')
     .pipe(sass({outputStyle:'compact'}))
     .pipe(noComments())
     .pipe(lineec())
@@ -64,7 +64,7 @@ gulp.task('style.css', function () {
  * Create style.min.css
  */
 gulp.task('style.min.css', function () {
-    return gulp.src(config.assets_dest + '/css/_style.scss')
+    return gulp.src(config.assets_dest + '/css/style.scss')
     .pipe(sass({outputStyle:'compressed'}))
     .pipe(noComments())
     .pipe(lineec())

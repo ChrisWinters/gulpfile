@@ -23,7 +23,7 @@ gulp.task('assets', function(done) {
     gulp.src(config.assets_src + '/_custom-styling.scss').pipe(gulp.dest(config.assets_dest))
 
     // SCSS Asset
-    gulp.src(config.assets_src + '/scss/_style.scss').pipe(gulp.dest(config.assets_dest + '/css'))
+    gulp.src(config.assets_src + '/scss/style.scss').pipe(gulp.dest(config.assets_dest + '/css'))
 
     // JavaScript Assets
     gulp.src(config.assets_src + '/scripts/script.js').pipe(gulp.dest(config.assets_dest + '/js'))
