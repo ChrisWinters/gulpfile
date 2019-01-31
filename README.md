@@ -1,5 +1,4 @@
-# Gulpfile.js for WordPress Themes and WordPress Plugins
-## Version 1.0.0
+# Gulpfile.js for WordPress Themes and WordPress Plugins ** v1.0.0 **
 
 An example gulpfile.js setup for WordPress theme and WordPress plugin development.
 
@@ -9,27 +8,26 @@ Past the requirements below, this project works out-of-the-box. Simply clone the
 
 Check that you have [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/get-npm), [gulp](https://gulpjs.com/docs/en/getting-started/quick-start) and [composer](https://getcomposer.org/download/) installed.
 
-``` node -v ```
-
-``` npm -v ```
-
-``` gulp -v ```
-
-``` composer --version ```
-
+```
+node -v
+npm -v
+gulp -v
+composer --version
+```
 
 ## Installation
 
 Clone the gulpfile.js repo
 
-``` git clone https://github.com/ChrisWinters/gulpfile.git gulpfile_test```
-
-``` cd gulpfile_test ```
-
+```
+git clone https://github.com/ChrisWinters/gulpfile.git gulpfile_test
+cd gulpfile_test
+```
 Install Dependencies
 
-``` npm install --save-dev ```
-
+```
+npm install --save-dev
+```
 
 ## Commands
 
@@ -97,8 +95,10 @@ The ``` assets_src ``` and ``` assets_dest ``` paths are vital to making the gul
 Most themes and plugins will set the paths like the example below, assuming core assets are located in a directory named /inc/.
 
 ```
+{
 	"assets_src" : "./inc/assets",
 	"assets_dest" : "./assets",
+}
 ```
 
 Gulp will copy core assets from ``` assets_src ``` and into the temporary ``` assets_dest ``` location.
