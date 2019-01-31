@@ -112,7 +112,7 @@ Most projects will require various customizations to the gulp tasks located in `
 
 For example, the ``` assets.js ``` file copies assets from ``` assets_src ``` to ``` assets_dest ```. One of those assets is [Bootstrap 4](https://getbootstrap.com/), copied from the 'node_modules' directory, which your project may not need.
 
-### Files
+### Task Files
 
 * **assets.js** Copies assets from ``` assets_src ``` to ``` assets_dest ```
 * **bump.js** Currently bumps version numbers in README.md & package.json files, other files will need to be manually added
@@ -122,6 +122,8 @@ For example, the ``` assets.js ``` file copies assets from ``` assets_src ``` to
 * **scripts.js** Typically this file needs to be updated anytime the project adds new 3rd party JavaScript files
 * **styles.js** Typically this file needs to be updated anytime the project adds new 3rd party SCSS files
 * **translate.js** Creates .pot translation file, typically does not need customizations
+
+### Other Files
 
 * **config.json** Gulp configuration file explained above
 * **index.js** No customizations needed
