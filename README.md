@@ -1,4 +1,4 @@
-# Gulpfile.js for WordPress Themes and WordPress Plugins ** v1.0.0 **
+# Gulpfile.js for WordPress Themes and WordPress Plugins - v1.0.0
 
 An example gulpfile.js setup for WordPress theme and WordPress plugin development.
 

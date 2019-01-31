@@ -52,7 +52,7 @@ gulp.task('packagejson', function() {
  */
 gulp.task('readmemd', function() {
     return gulp.src('./README.md', {base: process.cwd()})
-    .pipe(replace("** v " + current_version, "** v " + next_version))
+    .pipe(replace("- v " + current_version, "- v " + next_version))
     .pipe(notify({message: 'README.md updated to: ' + next_version, onLast: true}))
     .pipe(gulp.dest('.'));
 });
