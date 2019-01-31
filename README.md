@@ -152,4 +152,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-P.S. A little link love back to this repo from your projects repo would be much appreciated but not required.
+P.S. If you end up using this project in one of your projects, a link back to this repo would be much appreciated but not required.
