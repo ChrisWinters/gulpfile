@@ -1,0 +1,13 @@
+{
+	"project_url" : "gulpfile.localhost",
+	"js_dest" : "./gulpfile.js/tests/js",
+	"css_dest" : "./gulpfile.js/tests/css",
+	"imgs_dest" : "./gulpfile.js/tests/images",
+	"assets_src" : "./gulpfile.js/tests/assets-src",
+	"assets_dest" : "./gulpfile.js/tests/assets-dest",
+	"language_dest" : "./gulpfile.js/tests/lang",
+	"text_domain" : "gulpfile",
+	"bug_report" : "https://github.com/ChrisWinters/gulpfile/issues",
+	"translator_contact" : "Nobody <nobody@nobody.com>",
+	"team_contact" : "Nobody <nobody@nobody.com>"
+}
