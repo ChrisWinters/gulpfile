@@ -1,8 +1,8 @@
 # Gulpfile.js for WordPress Themes and WordPress Plugins - v1.0.0
 
-![Gulpfile.js for WordPress In Terminal](/gulpfile.js/tests/assets-src/images/terminal.png?raw=true)
-
 An example gulpfile.js setup for WordPress theme and WordPress plugin development.
+
+![Gulpfile.js for WordPress In Terminal](/gulpfile.js/tests/assets-src/images/terminal.png?raw=true)
 
 Past the requirements below, this project works out-of-the-box. Simply clone the project, install dependencies, and then run the gulp commands to see the project in action.
 
