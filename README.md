@@ -140,7 +140,7 @@ Run ``` npm install ``` to restart the project, adding the /node_modules/ direct
 
 ## MIT License
 
-[License](https://github.com/ChrisWinters/gulpfile/LICENSE)
+[License](https://raw.githubusercontent.com/ChrisWinters/gulpfile/master/LICENSE)
 
 Copyright 2019 Chris Winters https://github.com/ChrisWinters/
 
