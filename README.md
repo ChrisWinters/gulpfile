@@ -1,6 +1,6 @@
 # Gulpfile.js for WordPress Themes and WordPress Plugins - v1.0.0
 
-![Gulpfile.js for WordPress In Terminal](/gulpfile.js/tests/assets-src/images/terminal.png?raw=true)
+![Gulpfile.js for WordPress In Terminal](/gulpfile.js/tests/assets-src/images/terminal.png?raw=true){ width="678" height="148" style="display: block; margin: 0 auto" }
 
 An example gulpfile.js setup for WordPress theme and WordPress plugin development.
 
