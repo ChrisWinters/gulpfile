@@ -6,6 +6,8 @@ An example gulpfile.js setup for WordPress theme and WordPress plugin developmen
 
 Past the requirements below, this project works out-of-the-box. Simply clone the project, install dependencies, and then run the gulp commands to see the project in action.
 
+* View The [Gulpfile.js for WordPress Themes and WordPress Plugins Documentation](https://chriswinters.github.io/gulpfile/) On Github Pages
+
 ## Requirements
 
 Check that you have [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/get-npm), [gulp](https://gulpjs.com/docs/en/getting-started/quick-start) and [composer](https://getcomposer.org/download/) installed.
