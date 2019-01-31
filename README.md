@@ -1,5 +1,5 @@
 # Gulpfile.js for WordPress Themes and WordPress Plugins
-# Version 1.0.0
+## Version 1.0.0
 
 An example gulpfile.js setup for WordPress theme and WordPress plugin development.
 
@@ -80,17 +80,17 @@ Themes and plugins will replace ``` ./gulpfile.js/tests ``` with ``` ./ ```.
 
 ### Settings
 
-* project_url 			Used for the ``` gulp watch ``` command, set to your locally hosted project domain
-* js_dest				Public facing /js directory that stores compiled scripts
-* css_dest				Public facing /css directory that stores compiled stylesheets
-* imgs_dest				Public facing /images directory that stores compressed images
-* assets_src			Custom location where a themes/plugins would store 'core' SCSS/CSS & JavaScript files
-* assets_dest			Custom temporary location where vendor and theme/plugin assets are copied to
-* language_dest			Public facing /lang directory that stores the .pot translation file
-* text_domain			The textdomain used for your project
-* bug_report			The URL where people can report translation related issues
-* translator_contact	The contact information for the translator
-* team_contact			The contact information for the translator team
+* **project_url** Used for the ``` gulp watch ``` command, set to your locally hosted project domain
+* **js_dest** Public facing /js directory that stores compiled scripts
+* **css_dest** Public facing /css directory that stores compiled stylesheets
+* **imgs_dest** Public facing /images directory that stores compressed images
+* **assets_src** Custom location where a themes/plugins would store 'core' SCSS/CSS & JavaScript files
+* **assets_dest** Custom temporary location where vendor and theme/plugin assets are copied to
+* **language_dest** Public facing /lang directory that stores the .pot translation file
+* **text_domain** The textdomain used for your project
+* **bug_report** The URL where people can report translation related issues
+* **translator_contact** The contact information for the translator
+* **team_contact** The contact information for the translator team
 
 The ``` assets_src ``` and ``` assets_dest ``` paths are vital to making the gulp tasks work correctly.
 
