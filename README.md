@@ -46,7 +46,7 @@ npm install --save-dev
 
 ## Configuration
 
-Open ``` /gulpfile/config.json ```
+Open ``` /gulpfile.js/config.json ```
 
 
 ```
@@ -108,7 +108,7 @@ Gulp will copy core assets from ``` assets_src ``` and into the temporary ``` as
 
 ## Customization
 
-Most projects will require various customizations to the gulp tasks located in ``` /gulpfile/tasks ```
+Most projects will require various customizations to the gulp tasks located in the ``` /gulpfile.js/tasks ``` directory.
 
 For example, the ``` assets.js ``` file copies assets from ``` assets_src ``` to ``` assets_dest ```. One of those assets is [Bootstrap 4](https://getbootstrap.com/), copied from the 'node_modules' directory, which your project may not need.
 
