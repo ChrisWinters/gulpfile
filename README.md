@@ -114,14 +114,14 @@ For example, the ``` assets.js ``` file copies assets from ``` assets_src ``` to
 
 ### Task Files
 
-* **assets.js** Copies assets from ``` assets_src ``` to ``` assets_dest ```
-* **bump.js** Currently bumps version numbers in README.md & package.json files, other files will need to be manually added
-* **default.js** The ``` watch ``` task may need to be customized to match your project layout
-* **images.js** The ``` image ``` task may need to be customized to match your project layout
-* **index.js** No customizations needed
-* **scripts.js** Typically this file needs to be updated anytime the project adds new 3rd party JavaScript files
-* **styles.js** Typically this file needs to be updated anytime the project adds new 3rd party SCSS files
-* **translate.js** Creates .pot translation file, typically does not need customizations
+* **tasks/assets.js** Copies assets from ``` assets_src ``` to ``` assets_dest ```
+* **tasks/bump.js** Currently bumps version numbers in README.md & package.json files, other files will need to be manually added
+* **tasks/default.js** The ``` watch ``` task may need to be customized to match your project layout
+* **tasks/images.js** The ``` image ``` task may need to be customized to match your project layout
+* **tasks/scripts.js** Typically this file needs to be updated anytime the project adds new 3rd party JavaScript files
+* **tasks/styles.js** Typically this file needs to be updated anytime the project adds new 3rd party SCSS files
+* **tasks/translate.js** Creates .pot translation file, typically does not need customizations
+* **tasks/index.js** No customizations needed
 
 ### Other Files
 
