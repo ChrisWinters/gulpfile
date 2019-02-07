@@ -8,6 +8,7 @@ Past the requirements below, this project works out-of-the-box. Simply clone the
 
 * View The [Gulpfile.js for WordPress Themes and WordPress Plugins Documentation](https://chriswinters.github.io/gulpfile/) On Github Pages
 
+
 ## Requirements
 
 Check that you have [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/get-npm), [gulp](https://gulpjs.com/docs/en/getting-started/quick-start) and [composer](https://getcomposer.org/download/) installed.
@@ -27,9 +28,10 @@ Clone the gulpfile.js repo
 git clone https://github.com/ChrisWinters/gulpfile.git gulpfile_test
 cd gulpfile_test
 ```
-Install Dependencies
+Install Local Gulp Dependencies
 
 ```
+npm install gulp
 npm install --save-dev
 ```
 
@@ -140,6 +142,13 @@ Once a project is completed manually delete the /node_modules/ directory.
 Run ``` npm install ``` to restart the project, adding the /node_modules/ directory back to the project.
 
 
+## Donations
+
+If this gulpfile project has saved you some time, helped you with your development needs, or if you would like to support my efforts, then I would gladly and greatly appreciate a donated cup of coffee. Thank you in advance for your support!
+
+<a href="https://www.buymeacoffee.com/TavXZIxkm" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+
 ## MIT License
 
 [License](https://raw.githubusercontent.com/ChrisWinters/gulpfile/master/LICENSE)
@@ -151,7 +160,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
-
-P.S. If you end up using this project in one of your projects, a link back to this repo would be much appreciated but not required.

@@ -2,5 +2,6 @@
 .git
 package-lock.json
 node_modules/*
+assets-dest
 vendor/*
 assets/*
